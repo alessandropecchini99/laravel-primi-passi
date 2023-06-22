@@ -59,8 +59,8 @@
             font-size: 2em;
         }
 
-        h2 {
-            width: 50%;
+        h3 {
+            width: 80%;
         }
     </style>
 </head>
@@ -76,13 +76,13 @@
         </ul>
     </header>
 
-    <h2>
+    <h3>
         Esercizio di oggi: <br>
         nome repo: laravel-primi-passi <br>
         Ciao ragazzi, <br>
         oggi iniziamo a muovere i primi passi con questo fantastico framework che è Laravel! <br>
         creiamo la cartella del progetto con il nome della repo, quindi la apriamo in VS Code e apriamo un tab del terminale dove diamo il comando di installazione di Laravel 9: <br>
-        composer create-project laravel/laravel:^9.2 . <br>
+        composer create-project laravel/laravel:^9.3 . <br>
         (ricordatevi che la cartella nella quale lanciate il comando deve essere vuota altrimenti l'installazione non verrà eseguita)
         Al termine dell'installazione avviamo l'artisan serve con uno di questi due comandi: <br>
         php artisan serve <br>
@@ -91,7 +91,7 @@
         Facciamo in modo che home.blade.php visualizzi un Hello World (inserito in un HTML valido e completo). <br>
         Bonus: <br>
         Creiamo più di una pagina e visualizziamo un header menu con i link di tutte le pagine. <br>
-    </h2>
+    </h3>
 
 </body>
 
